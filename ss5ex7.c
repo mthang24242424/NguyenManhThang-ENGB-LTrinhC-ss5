@@ -12,8 +12,8 @@ int main(){
 	  printf("nhap so nguyen duong thu hai ");
 	 scanf("%d",&b);
 	 } 
-	 for(int i=1;i<=a&&i<=b;i++){
-	 	if(a%i==0&&b%i==0){
+	 for(int i=1; i<=a && i<=b ;i++){
+	 	if( a % i == 0 && b % i == 0){
 	 	maxUoc = i;	
 		 } 
 	 } 
