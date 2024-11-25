@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int a,j; 
+	for(a=1;a<10;a++){
+		printf("bang cuu chuong %d \n",a);
+		 for(int i=1;i<11;i++){
+		printf("%d nhan %d bang %d \n",a,i,a*i);
+	}
+	}
+
+	return 0;
+}
